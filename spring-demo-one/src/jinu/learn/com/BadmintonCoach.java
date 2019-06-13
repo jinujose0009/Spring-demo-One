@@ -8,4 +8,10 @@ public class BadmintonCoach implements Coach{
 		return "Spend 30 min daily practice";
 	}
 
+	@Override
+	public String getDailyfortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
