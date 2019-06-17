@@ -10,17 +10,11 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	
-	
     <context:property-placeholder location="classpath:sport.properties"/>
 	<bean id="myfortune" class="jinu.learn.com.FortuneImpl"></bean>
 	
-	<bean id="myCoach" class="jinu.learn.com.TrackCoach">
+	<bean id="myCoach" class="jinu.learn.com.TrackCoach" scope="prototype">
 	<constructor-arg ref="myfortune"/>
 	</bean>
-    <bean id="myCriketcoach" class="jinu.learn.com.CricketCoach">
-    <property name="email" value="${sport.email}"></property>
-    <property name="location" value="${sport.location}"></property>
-    <property name="fortuneService" ref="myfortune"></property>
-    </bean>
 
 </beans>
