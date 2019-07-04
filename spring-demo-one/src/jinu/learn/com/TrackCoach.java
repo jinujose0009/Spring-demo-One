@@ -17,6 +17,7 @@ public class TrackCoach implements Coach{
 	public String getDailyfortune() {
 		return fortuneService.getFortune();
 	}
+	
     public void getInitvalue(){
     	System.out.println("From inside init mehode");
     }
