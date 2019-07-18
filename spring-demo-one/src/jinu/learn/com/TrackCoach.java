@@ -24,4 +24,10 @@ public class TrackCoach implements Coach{
     public void getDestroymethode(){
     	System.out.println("From inside Destroy methode");
     }
+
+	@Override
+	public String getAlternativeFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

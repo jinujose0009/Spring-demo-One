@@ -15,8 +15,10 @@ public class MycriketApp {
 				//calls methode on the bean
 				System.out.println(thecoach.getDailyWorkout());
 				System.out.println(thecoach.getDailyfortune());
-				System.out.println(thecoach.getEmail());
+				System.out.println(thecoach.getAlternativeFortune());
 				System.out.println(thecoach.getLocation());
+				System.out.println(thecoach.getEmail());
+				
 				
 				//Close teh context
 				applicationContext.close();

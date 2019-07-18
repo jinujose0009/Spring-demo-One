@@ -14,4 +14,10 @@ public class BadmintonCoach implements Coach{
 		return null;
 	}
 
+	@Override
+	public String getAlternativeFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
